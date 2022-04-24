@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{ asset('asset/css/bootstrap.css') }} ">
-    <link rel="stylesheet" href="{{ asset('asset/css/list-groups.css') }} ">
+    <link rel="stylesheet" href="{{ secure_asset('asset/css/bootstrap.css') }} ">
+    <link rel="stylesheet" href="{{ secure_asset('asset/css/list-groups.css') }} ">
     <title>TestBlog</title>
     <style>
         body {
@@ -35,6 +35,6 @@
 
 </body>
 
-<script src="{{ asset('asset/js/boostrap.js') }}"></script>
-<script src="{{ asset('asset/js/jquery.js') }}"></script>
+<script src="{{ secure_asset('asset/js/boostrap.js') }}"></script>
+<script src="{{ secure_asset('asset/js/jquery.js') }}"></script>
 </html>
