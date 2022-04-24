@@ -18,7 +18,7 @@
 
     @include('inc.nav')
     @if (Route::is('/'))
-    @include('inc.showjumbo')
+        @include('inc.showjumbo')
     @endif
     {{-- @include('inc.message') --}}
     <div class="container">
